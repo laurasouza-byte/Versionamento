@@ -1,0 +1,80 @@
+<!-- Início do código html/ Este é um comentário!-->
+ 
+ <!DOCTYPE html>  <!-- Declaração que especifica que este é um documento HTML-->
+ 
+<html lang="pt-BR"> <!--o “html” inicia o código html e o lang indica o idioma do conteúdo
+-->
+
+
+<head> <!--Contém informações não visíveis para o usuário-->
+
+
+    <meta charset="UTF-8"> <!--Define a codificação de caracteres para UTF-8, garantindo que acentos e outros caracteres especiais sejam exibidos corretamente-->
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a página a diferentes tamanhos de tela-->
+
+
+    <title>Sistema de Login/Cadastro</title> <!-- Define o título que aparece na aba do navegador-->
+
+
+    <link rel="stylesheet" href="estilo.css"> <!-- Conexão entre o html e o css-->
+
+
+</head> <!-- o uso da / indica o fim das seções -->
+
+
+<!-- Início do corpo do site-->
+<body>
+
+
+<div class ="container"> <!-- O <div> é responável por criar um container com as informações do formulário-->
+
+
+<!-- O h1, h2 e p indicam o texto que deve aparecer ao abrir o site-->
+
+
+<h1>Sistema de Login/Cadastro</h1> <!-- h1 para um texto maior/Título-->
+
+
+<h2>Seja bem vindo/a ao nosso site!</h2> <!-- h2 para um texto um pouco menor/subtítulo-->
+
+
+<p>Para realizar o seu login digite:</p> <!-- p para um texto adicional e menor do que o h-->
+
+
+<!-- O <form> é responsável por criar um formulário para coletar os dados do usuário-->
+    <form>
+
+
+<!-- O <input type> cria uma caixa do tipo texto -->
+     <input type = "text" name="email_username" class="campo-login"
+     placeholder ="Email ou nome de usuário"> <br>
+
+
+<!-- O <input type> cria uma caixa do tipo senha -->
+     <input type ="password" name="Senha" class="campo-login"
+     placeholder = "Senha"> <br>  <!-- O <br> indica uma quebra de linha sem formar um parágrafo-->  
+   
+     <!-- A seção <button> cria um botão interativo-->
+     <button> Entrar </button>
+
+
+     <p> Esqueceu a senha ou ainda não tem uma conta?</p>
+     <button> Criar nova conta</button>
+
+
+    </form> <!-- Final do formulário-->
+    </div> <!-- Final do <div>-->
+   
+<!-- Conexão entre o html e o código java-->
+    <script src="projeto.js"></script>
+
+
+</body>
+<!--Final do "corpo" do site-->
+
+
+
+</html>
+<!-- Fim do HTML-->

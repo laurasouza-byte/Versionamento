@@ -1,0 +1,80 @@
+/*======== PLANO DE FUNDO DE FONTE =========*/
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1920&q=80')
+    no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+/* ========= CAIXA FORMULÁRIO =========*/
+.container {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  width: 350px;
+  text-align: center;
+  color: #000000;
+}
+
+.container h1,
+.container h2, 
+.container p {
+  color: #000000;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px; /* Espaço para o menu fixo */
+}
+
+
+/* ========== CAMPOS E BOTÕES =========*/
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  width: 70%;
+  padding: 10px;
+  background-color: #48064e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #740862;
+}
+
+/*======== Links ========*/
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+    color: rgb(73, 6, 112);
+  text-decoration: underline;
+}
+
+/* Esconder formulário */
+.hidden {
+  display: none;
+}
